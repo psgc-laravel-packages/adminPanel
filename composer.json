@@ -1,0 +1,20 @@
+{
+    "name": "psgc-laravel-packages/adminPanel",
+    "description": "Basic  admin panel template.",
+    "keywords": ["laravel", "admin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "psgc-laravel-packages",
+            "email": "peter@peltronic.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PsgcLaravelPackages\\AdminPanel\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
